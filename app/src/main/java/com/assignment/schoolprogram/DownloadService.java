@@ -22,9 +22,9 @@ import java.util.TimerTask;
  *  6266991
  */
 public class DownloadService extends Service {
-    public static String SCHOOLS_URL = "http://isaacan.github.io/schools.csv";
-    public static String PROGRAM_URL = "http://isaacan.github.io/program.csv";
-    public static String DATES_URL = "http://isaacan.github.io/dates.csv";
+    public static String SCHOOLS_URL = "https://bitbucket.org/yep11jnu/se2/downloads/schools.csv";
+    public static String PROGRAM_URL = "https://bitbucket.org/yep11jnu/se2/downloads/program.csv";
+    public static String DATES_URL = "https://bitbucket.org/yep11jnu/se2/downloads/dates.csv";
     public static Activity activity;
 
     NotificationCompat.Builder mBuilder;
