@@ -22,9 +22,9 @@ import java.util.TimerTask;
  *  6266991
  */
 public class DownloadService extends Service {
-    // Could not get csv to commit to git
+    // Could not get csv to commit to git, had to host on dropbox instead.
     public static String SCHOOLS_URL = "https://www.dropbox.com/s/feptq9z3jtzpu8p/program.csv?dl=1";
-    public static String PROGRAM_URL = "https://www.dropbox.com/s/6aamjzzm7rr1xby/schools.csv?dl=1";
+    public static String PROGRAM_URL = "hhttps://www.dropbox.com/s/8wo464x2u3gm853/schools.csv?dl=1";
     public static String DATES_URL = "https://www.dropbox.com/s/8n9vvaeowjatp3g/dates.csv?dl=1";
     public static Activity activity;
 
