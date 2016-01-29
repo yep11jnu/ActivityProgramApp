@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Sync intervals in min"
+        android:defaultValue="20"
+        android:inputType="number"
+        android:key="sync_interval"
+        android:summary="Please set the sync interval"></EditTextPreference>
+    <CheckBoxPreference
+        android:title="Vibration notification"
+        android:defaultValue="true"
+        android:summary="This option if selected will notify through vibration."
+        android:key="vibration" />
+    <CheckBoxPreference
+        android:title="Sound notification"
+        android:defaultValue="true"
+        android:summary="This option if selected will notify through ring sound."
+        android:key="sound" />
+    <ListPreference
+        android:title="Choose program"
+        android:summary="Select the program to use"
+        android:key="programType"
+        android:defaultValue="2"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+</PreferenceScreen>
